@@ -1,8 +1,12 @@
 ---
-description: https://ethglobal.com/showcase/lst-optimizer-5pudw
+description: LST Index Summary
 ---
 
 # Liquid Staking Token (LST) Index
+
+Github: [https://github.com/robo-advisor-lab/staked\_eth\_optimizer](https://github.com/robo-advisor-lab/staked\_eth\_optimizer)
+
+StarkHack Submission: [https://ethglobal.com/showcase/lst-optimizer-5pudw](https://ethglobal.com/showcase/lst-optimizer-5pudw)
 
 ### Project Description
 
