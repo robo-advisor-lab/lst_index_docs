@@ -6,25 +6,27 @@ description: https://ethglobal.com/showcase/lst-optimizer-5pudw
 
 ### Project Description
 
-This project aims to create an automated system for managing a portfolio of Liquid Staked Tokens (LSTs) on the Starknet Sepolia testnet. The main objective is to optimize the portfolio composition using reinforcement learning and forecasting to achieve the best possible returns. The project includes various components, such as a Flask-based web application, a reinforcement learning environment, data fetching and processing scripts, and integration with blockchain smart contracts for rebalancing the portfolio.
+This project aims to create a machine learning managed index of Liquid Staked Tokens (LSTs) on the Starknet Sepolia testnet. The main objective is to optimize the portfolio composition using reinforcement learning and forecasting to achieve the best possible returns. The project includes various components, such as a Flask-based web application, a reinforcement learning environment, data fetching and processing scripts, and integration with blockchain smart contracts for rebalancing the portfolio.
 
-### Environment Setup:
+#### Environment Setup:
 
-The environment is set up to simulate the trading of Liquid Staked Tokens (LSTs) with historical price data. The StakedETHEnv class extends the gym.Env class from OpenAI's Gym to create a custom RL environment. This environment handles the portfolio's state, actions, rewards, and transition dynamics. Data Handling:
+The environment is set up to simulate the trading of Liquid Staked Tokens (LSTs) with historical price data. The StakedETHEnv class extends the gym.Env class from OpenAI's Gym to create a custom Reinforcement Learning (RL) environment. This environment handles the portfolio's state, actions, rewards, and transition dynamics. Data Handling:
 
 Historical price data is fetched using the YFinance API and processed using Pandas. The data is then used to calculate historical returns, which are necessary for training the RL agent. Additionally, the fetch\_and\_process\_tbill\_data function fetches risk-free rates from an external API, which are used to calculate metrics like the expected return.&#x20;
 
-Reinforcement Learning:
+#### Reinforcement Learning:
 
 The PPO (Proximal Policy Optimization) algorithm from Stable Baselines3 is used to train the RL agent. The agent interacts with the custom environment to learn an optimal policy for rebalancing the portfolio based on historical and forecasted data. During each episode, the environment simulates the portfolio's performance over a specified time period, considering both historical price changes and forecasted price movements.&#x20;
 
-Forecasting:
+#### Forecasting:
 
 The Prophet library is used to generate time series forecasts for each asset. These forecasts are used as part of the observation space for the RL agent, helping it make informed decisions about future portfolio compositions.&#x20;
 
-Blockchain Integration:
+#### Blockchain Integration:
 
-The project integrates with the Starknet blockchain to manage real token balances. It uses the Starknet Python SDK to interact with smart contracts, including checking balances and executing token transfers for rebalancing. Two main smart contract functions are involved: transfer\_tokens\_to\_fund and transfer\_tokens\_from\_fund, which handle the actual movement of tokens based on the RL agent's decisions.&#x20;
+The project integrates with the Starknet Sepolia blockchain to manage real token balances. It uses the Starknet Python SDK to interact with smart contracts, including checking balances and executing token transfers for rebalancing. Two main smart contract functions are involved: transfer\_tokens\_to\_fund and transfer\_tokens\_from\_fund, which handle the actual movement of tokens based on the RL agent's decisions.&#x20;
+
+Test net erc20 tokens representing wstETH, rETH, and sfrxETH were deployed using [Scaffold-Stark-2](https://github.com/Quantum3-Labs/scaffold-stark-2).&#x20;
 
 Flask API:
 
