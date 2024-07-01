@@ -2,18 +2,25 @@
 
 ### Lets look at the average results over 10 runs
 
-```python
-seeds = [5, 10, 15, 20, 40, 100, 200, 300, 500, 800]
-From Date: 2023-01-10 00:00:00
-To Date: 2024-06-18 00:00:00
-Excess Return over rETH:42.51%
-Excess Return over wstETH:35.84%
-Excess Return over sfrxETH:34.52%
-optimizer cagr: 124.64%, optimizer expected return: 119.44%
-rETH cagr: 103.43%, rETH expected return: 98.23%
-wstETH cagr: 106.82%, rETH expected return: 101.62%
-sfrxETH cagr: 107.49%, rETH expected return: 102.29%
-```
+Seeds - 5, 10, 15, 20, 40, 100, 200, 300, 500, 800
+
+Start Date - 2023-01-10
+
+End Date - 2024-06-18
+
+Index Excess Return over rETH - 42.51%
+
+Index Excess Return over wstETH - 35.84%
+
+Index Excess Return over sfrxETH - 34.52%
+
+Index Compound Annual Growth Rate (CAGR) - 124.64%
+
+rETH CAGR - 103.43%
+
+wstETH CAGR - 106.82%
+
+sfrxETH CAGR - 107.49%
 
 <figure><img src=".gitbook/assets/newplot (51) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -21,15 +28,15 @@ sfrxETH cagr: 107.49%, rETH expected return: 102.29%
 
 Random Seed - 20
 
-Start date - 1/10/2023 0:00
+Start date - 1/10/2023&#x20;
 
-End date - 6/18/2024 0:00
+End date - 6/18/2024
 
-optimizer Excess Return over rETH - 0.455710553
+Index Excess Return over rETH - 45.57%
 
-optimizer Excess Return over wstETH - 0.389003418
+Index Excess Return over wstETH - 38.90%
 
-optimizer Excess Return over sfrxETH - 0.375811794
+Index Excess Return over sfrxETH - 37.58%
 
 
 
