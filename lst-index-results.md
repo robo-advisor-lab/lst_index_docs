@@ -2,6 +2,8 @@
 
 ### Lets look at the average results over 10 runs
 
+Source Code - [https://github.com/robo-advisor-lab/staked\_eth\_optimizer/blob/production/apps/optimizer\_average\_run.py](https://github.com/robo-advisor-lab/staked\_eth\_optimizer/blob/production/apps/optimizer\_average\_run.py)
+
 Seeds - 5, 10, 15, 20, 40, 100, 200, 300, 500, 800
 
 Start Date - 2023-01-10
@@ -25,6 +27,8 @@ sfrxETH CAGR - 107.49%
 <figure><img src=".gitbook/assets/newplot (51) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Lets look at one run in particular
+
+Source Code - [https://github.com/robo-advisor-lab/staked\_eth\_optimizer/blob/production/apps/optimizer\_app.py](https://github.com/robo-advisor-lab/staked\_eth\_optimizer/blob/production/apps/optimizer\_app.py)
 
 Random Seed - 20
 
