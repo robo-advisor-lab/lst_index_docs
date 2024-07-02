@@ -4,7 +4,7 @@ description: LST Index Summary
 
 # Liquid Staking Token (LST) Index
 
-Website: [https://eb3b-190-219-102-166.ngrok-free.app/](https://eb3b-190-219-102-166.ngrok-free.app/)
+Website: [https://www.optimizerfinance.com/lst-index](https://www.optimizerfinance.com/lst-index)
 
 Github: [https://github.com/robo-advisor-lab/staked\_eth\_optimizer](https://github.com/robo-advisor-lab/staked\_eth\_optimizer)
 
