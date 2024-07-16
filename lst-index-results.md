@@ -24,7 +24,15 @@ wstETH CAGR - 106.82%
 
 sfrxETH CAGR - 107.49%
 
-<figure><img src=".gitbook/assets/newplot (51) (1).png" alt=""><figcaption></figcaption></figure>
+<div>
+
+<figure><img src=".gitbook/assets/normalized_comparison.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/avg_normalized_comparison.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Lets look at one run in particular
 
